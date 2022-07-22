@@ -1,0 +1,28 @@
+{
+  "name": "ufjf-editor",
+  "productName": "UFJF Editor",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Exemplo feito para um mini curso pela UFJF",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir"
+  },
+  "author": "Lesley Andreza",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^19.0.9",
+    "electron-builder": "^23.1.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "eslint": "^8.20.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "dependencies": {
+    "electron-context-menu": "^3.3.0",
+    "electron-store": "^8.0.2",
+    "electron-window-state": "^5.0.3"
+  }
+}
